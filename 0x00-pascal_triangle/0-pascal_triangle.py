@@ -10,7 +10,7 @@ def pascal_triangle(n):
     Returns:
         list: Pascal's triangle represented as a list of lists.
     """
-    if(n == 0):
+    if(n <= 0):
         return []
     listoflists = [[1]]
     for i in range(1, n):
